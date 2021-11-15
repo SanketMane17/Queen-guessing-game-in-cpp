@@ -18,7 +18,7 @@ void play(int bet){
     c[2] = 'K';
     cout<< "Shuffling....." << endl;
     srand(time(NULL)); // Seeding random number generator
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 5; i++) // Swaps positions 5 times 
     {
         int x = rand() % 3;
         int y = rand() % 3;
